@@ -14,7 +14,7 @@ html {
 }
 
 body {
-	background-image: url('img/bg.png');
+	/*background-image: url('img/bg.png');*/
 	font-size: 87.5%;
 	font-family: Arial;
 	line-height: 1.5;
@@ -221,7 +221,7 @@ header {
 }
 
 #mainHeader nav {
-	background-color: none;
+
 	float: right;
 	
 	margin-right: -15px;
@@ -424,11 +424,10 @@ a {
 	line-height: 1.2;
 }
 
-#textbox {
+.textbox {
 	margin: 0 auto;
 	padding-left: 25px;
 	padding-right: 25px;
-
 }
 
 
@@ -489,7 +488,7 @@ a {
 
 	#mainHeader {
 		width: 100%;
-		margin-top: 0 px;
+		margin-top: 0px;
 	}
 
 	#logo {
@@ -512,13 +511,10 @@ a {
 
 	}
 
-
-
-	#textbox {
+	.textbox {
 		clear: both;
 		padding: 15px;
 		margin: 0 auto;
-
 	}
 	
 	h1 {
@@ -556,7 +552,6 @@ a {
 		color: #ffffff;
 		text-shadow: none;
 	}
-
 }
 
 /*  GO FULL WIDTH AT LESS THAN 480 PIXELS */
@@ -617,7 +612,7 @@ a {
 	}
 	#mainHeader {
 		width: 100%;
-		margin-top: 0 px;
+		margin-top: 0px;
 	}
 
 	#logo {
@@ -654,11 +649,10 @@ a {
 		margin: 0 auto;
 	}
 
-	#textbox {
+	.textbox {
 		clear: both;
 		padding: 15px;
 		margin: 0 auto;
-
 	}
 	
 	h1 {
@@ -710,7 +704,6 @@ a {
 
 }
 
-
 /*  REMOVE MARGINS AS ALL GO FULL WIDTH AT 480 PIXELS */
 
 @media only screen and (max-width: 480px) {
@@ -720,6 +713,4 @@ a {
 	#wrapper {
 		width: 100%;
 	}
-	
-	
 }
