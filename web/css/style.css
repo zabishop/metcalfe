@@ -300,17 +300,13 @@ a {
 	height: auto;
 }
 
-
-
 /* ---------->>> Images <<<-----------*/
-
-
 
 .bump {
 	margin-top: -20px;
 }
 
-#photo img {
+.photo img {
 	max-width: 100%;
 }
 
