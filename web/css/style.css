@@ -200,11 +200,11 @@ header {
     margin: 0 auto;
     max-width: 100%;
     height: 160px;
-    background-image: url(../img/headerimg2.png);
+    background-image: url('../img/headerimg2.png');
     box-shadow: 1px 1px 10px 1px gray;
     position: fixed;
+    top: 0;
     clear: both;
-    margin-top: -3%;
     z-index: 1000;
 }
 
@@ -218,9 +218,11 @@ header {
 
 #mainHeader nav {
     float: right;
-    margin-right: -15px;
     width: 100%;
     text-align: right;
+    position: relative;
+    top: 5px;
+    height: 30px;
 }
 
 #mainHeader nav ul {
@@ -230,38 +232,44 @@ header {
     padding: 0px;
 }
 
+#mainHeader nav ul li {
+    height: 100px;
+    width: 100px;
+    display: block;
+}
+
 #mainHeader nav ul li { display: inline; }
 
 #mainHeader nav a:link, #mainHeader nav a:visited {
     color: white;
     display: inline-block;
-    padding-left: 20px;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    padding-right: 20px;
-    height: 35px;
 }
 
 #mainHeader nav a:hover, #mainHeader nav a:active,
 #mainHeader nav .active a:link, #mainHeader nav .active a:visited {
-    background-color: #4c4d4f;
     color: #ffffff;
     text-shadow: none;
+    background: #999;
+}
+
+#header-nav a {
+    padding: 0 1em;
+    line-height: 29px;
 }
 
 #navarea {
     padding: 0px;
-    margin: 0 auto;
-    margin-right: 50px;
+    margin: 64px 0;
     float: right;
-    margin-top: 64px;
 }
 
 #navarea p {
     padding-top: 0px;
     text-align: center;
     color: #fff;
-    margin-left: 200px;
+    display: inline-block;
+    float: right;
+    margin-right: .5em;
 }
 
 a {
@@ -429,6 +437,7 @@ a {
 
     #logo {
         width: 30%;
+
         margin: 10px;
         margin-top: 25px;
     }
@@ -444,7 +453,7 @@ a {
     #navarea p {
         padding-top: 0px;
         text-align: center;
-        margin-top: 0px;
+        margin-top: .75em;
     }
 
     .textbox {
@@ -461,6 +470,7 @@ a {
         margin-top: 0;
         float: right;
         text-align: right;
+        width: 760px;
     }
 
     #mainHeader nav ul { margin-left: -50px; }
@@ -543,6 +553,7 @@ a {
     #mainHeader nav {
         background-color: #98012e;
         width: 100%;
+        height: 83px;
         float: left;
         margin: 0 auto;
         padding-left: 15%;
@@ -561,8 +572,8 @@ a {
 
     #logo {
         width: 50%;
-        margin: 10px;
-        margin-top: 25px;
+        margin: 25px 10px 0 10px;
+
     }
 
     #navarea {
@@ -594,6 +605,7 @@ a {
     #mainHeader nav ul {
         padding: 0px;
         margin: 0 auto;
+        width: 100%;
     }
 
     .textbox {
