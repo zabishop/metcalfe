@@ -233,8 +233,6 @@ header {
 }
 
 #mainHeader nav ul li {
-    height: 100px;
-    width: 100px;
     display: block;
 }
 
@@ -345,7 +343,7 @@ a {
 
 #trio img {
     max-width: 100%;
-    margin-bottom: 35px;
+    margin-bottom: 16px;
     display: inline-block;
 }
 
@@ -430,30 +428,16 @@ a {
 
 @media only screen and (max-width: 768px) {
 
-    #mainHeader {
-        width: 100%;
-        margin-top: 0px;
-    }
-
     #logo {
         width: 30%;
-
-        margin: 10px;
-        margin-top: 25px;
+        margin: 25px 10px 10px 10px;
+        min-width: 200px;
     }
 
-    #navarea {
-        padding: 0px;
-        margin: 0 auto;
-        margin-right: 50px;
+    #mainHeader nav {
         float: right;
-        margin-top: 56px;
-    }
-
-    #navarea p {
-        padding-top: 0px;
-        text-align: center;
-        margin-top: .75em;
+        text-align: right;
+        width: 760px;
     }
 
     .textbox {
@@ -464,35 +448,40 @@ a {
 
     h1 {
         padding: 15px;
+        margin: 0;
+    }
+    /*
+
+
+    #header-nav a {
+        padding: 0 1em;
+        line-height: 29px;
     }
 
-    #mainHeader nav {
-        margin-top: 0;
+    #mainHeader {
+        width: 100%;
+        margin-top: 0px;
+    }
+
+    #navarea {
+        padding: 0px;
+        margin: 0 auto;
+        margin-right: 50px;
         float: right;
-        text-align: right;
-        width: 760px;
+        height: 79px;
+        margin-top: 64px;
     }
 
-    #mainHeader nav ul { margin-left: -50px; }
 
-    #mainHeader nav ul li { display: inline; }
 
-    #mainHeader nav a:link, #mainHeader nav a:visited {
-        color: white;
-        display: inline-block;
-        padding-left: 20px;
-        padding-top: 10px;
-        padding-bottom: 10px;
-        padding-right: 20px;
-        height: 34px;
+    #navarea p {
+        padding-top: 0px;
+        text-align: center;
+        margin-top: .75em;
     }
+    */
 
-    #mainHeader nav a:hover, #mainHeader nav a:active,
-    #mainHeader nav .active a:link, #mainHeader nav .active a:visited {
-        background-color: #4c4d4f;
-        color: #ffffff;
-        text-shadow: none;
-    }
+
 }
 
 /*  GO FULL WIDTH AT LESS THAN 480 PIXELS */
@@ -625,7 +614,6 @@ a {
     .rslides_tabs {
         display: none;
     }
-
 }
 
 /*  SECTIONS  ============================================================================= */
@@ -656,7 +644,6 @@ a {
 .col {
     display: block;
     float: left;
-    /*margin: 1.5%;*/
 }
 
 /*  REMOVE MARGINS AS ALL GO FULL WIDTH AT 480 PIXELS */
@@ -666,3 +653,4 @@ a {
 
     #wrapper { width: 100%; }
 }
+
