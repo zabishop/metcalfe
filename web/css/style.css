@@ -242,13 +242,16 @@ header {
 
 #mainHeader nav ul li { display: inline; }
 
-#mainHeader nav a:link, #mainHeader nav a:visited {
+#mainHeader nav a:link,
+#mainHeader nav a:visited {
     color: white;
     display: inline-block;
 }
 
-#mainHeader nav a:hover, #mainHeader nav a:active,
-#mainHeader nav .active a:link, #mainHeader nav .active a:visited {
+#mainHeader nav a:hover,
+#mainHeader nav a:active,
+#mainHeader nav .active a:link,
+#mainHeader nav .active a:visited {
     color: #ffffff;
     text-shadow: none;
     background: #999;
@@ -294,7 +297,6 @@ a {
 
 .fbicon {
     float: right;
-    margin: 0 auto;
 }
 
 .fbicon img {
@@ -472,7 +474,6 @@ a {
 /*  WIDTH AT LESS THAN 768 PIXELS */
 
 @media only screen and (max-width: 768px) {
-
     #logo {
         width: 30%;
         margin: 25px 10px 10px 10px;
@@ -662,4 +663,3 @@ a {
         text-transform: uppercase;
     }
 }
-
