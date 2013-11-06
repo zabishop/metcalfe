@@ -635,6 +635,7 @@ footer nav p {
     #mainHeader {
         width: 100%;
         margin-top: 0px;
+        padding: 0;
         background-image: none;
         background-color: #4c4d4f;
     }
@@ -716,7 +717,5 @@ footer nav p {
         line-height: 29px;
         text-transform: uppercase;
     }
-    #home {
-        padding-top: 184px;
-    }
+
 }
