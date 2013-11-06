@@ -101,7 +101,6 @@ body {
     -moz-border-radius: 15px;
     border-radius: 15px;
     background: #fff;
-    background: rgba(255, 255, 255, .4);
     display: inline-block;
     _display: block;
     *display: block;
@@ -113,8 +112,7 @@ body {
 }
 
 .rslides_here a {
-    background: #fff;
-    background: rgba(255, 255, 255, .9);
+    background: #999;
 }
 
 /* ---------->>> Flex iframe map <<<-----------*/
