@@ -19,6 +19,10 @@
     <link rel="stylesheet" type="text/css" href="css/ie7.css">
     <![endif]-->
 
+    <!--[if IE 9]>
+    <link rel="stylesheet" type="text/css" href="css/ie9.css">
+    <![endif]-->
+
     <script>
         $(function () {
             $(".rslides").responsiveSlides({
@@ -293,6 +297,18 @@
         <br><p><small>Site Created By</small> <a href="irongatecreative.com">IronGate Creative</a></p>
     </nav>
 </footer>
+
+<script>
+    if (navigator.userAgent.match(/iPhone/i) || navigator.userAgent.match(/iPad/i)) {
+        var viewportmeta = document.querySelector('meta[name="viewport"]');
+        if (viewportmeta) {
+            viewportmeta.content = 'width=device-width, minimum-scale=1.0, maximum-scale=1.0, initial-scale=1.0';
+            document.body.addEventListener('gesturestart', function () {
+                viewportmeta.content = 'width=device-width, minimum-scale=0.25, maximum-scale=1.6';
+            }, false);
+        }
+    }
+</script>
 
 </body>
 </html>
