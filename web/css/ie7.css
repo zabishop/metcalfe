@@ -60,3 +60,13 @@ h2 {
 .rslides_tab a {
     background: red;
 }
+
+#mainHeader nav ul {
+    position: relative;
+    top: 9px;
+}
+
+#calltoday {
+    top: -5px;
+    right: 10px;
+}

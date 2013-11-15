@@ -4,3 +4,8 @@ a img {
     position: relative;
     left: 14px;
 }
+
+#mainHeader nav ul {
+    position: relative;
+    top: 4px;
+}
