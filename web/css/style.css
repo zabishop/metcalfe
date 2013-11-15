@@ -244,6 +244,8 @@ header, .header {
     zoom:1;
     *display: inline;
     padding: 0px;
+    position: relative;
+    top: 3px;
 }
 
 #mainHeader nav ul li {
@@ -280,18 +282,37 @@ header, .header {
     float: right;
     zoom:1;
     *display: inline;
+    position: relative;
 }
 
 #navarea p {
-    padding-top: 0px;
-    text-align: center;
     color: #fff;
     display: inline-block;
     float: right;
     zoom:1;
     *display: inline;
-    margin-right: .5em;
+    margin: 0;
+    padding: 0;
 }
+
+#calltoday {
+    position: absolute;
+    top: -3px;
+    right: 50px;
+    font-size: 20px;
+    width: 300px;
+    text-align: right;
+}
+
+#address {
+    position: absolute;
+    top: 22px;
+    right: 50px;
+    font-size: 12px;
+    width: 300px;
+    text-align: right;
+}
+
 
 a {
     text-decoration: none;
@@ -439,6 +460,9 @@ footer nav p {
     margin-top: 0;
 }
 
+br.test {
+    display: none;
+}
 
 /* Fixes for iOS tablets */
 .no-float,
@@ -554,6 +578,17 @@ footer nav p {
     }
 }
 
+@media only screen and (max-width: 525px) {
+
+    p#calltoday {
+        top: 10px;
+        font-size: 16px;
+    }
+    p#address {
+        display: none;
+    }
+}
+
 /*  GO FULL WIDTH AT LESS THAN 480 PIXELS */
 
 @media only screen and (max-width: 480px) {
@@ -628,6 +663,11 @@ footer nav p {
         margin: 0 auto;
         padding-left: 15%;
         text-align: left;
+
+    }
+
+    #mainHeader nav ul {
+        top: 0;
     }
 
     #mainHeader nav a:link, #mainHeader nav a:visited {
