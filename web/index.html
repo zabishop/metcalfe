@@ -91,35 +91,13 @@
             <li><img src="img/slide-2a.jpg" alt=""></li>
         </ul>
     </div>
+    <div class="mobile-only-show">
+        <img id="mini-logo" src="img/logo.png">
+    </div>
 </div>
 <!--end home-->
 
-<!-- about -->
-<div id="about" class="section group">
-    <h1>About</h1>
 
-    <div class="bump">
-        <div class="textbox col span_7-12">
-            <p>Steve and Debbie opened Metcalfe Automotive in July of 1990 on the south side of Muncie.
-                Prior to that Steve worked at a locally well-known alignment shop right out of high school.
-                While studying automotive technology at Ivy Tech, he also spent several years as the lead
-                alignment technician at a local Chevrolet dealership. While at the dealership, Steve gained
-                experience and knowledge and became a GM certified technician, as well as an ASE
-                master and advanced level certified technician. Throughout the years,
-                Metcalfe Automotive has had opportunities to expand, but they have purposely kept the business
-                at a level where they can offer the personal service that
-                many of their long time customers have grown to appreciate. Since opening Metcalfe Automotive,
-                they continue to provide customers with a high-level of service, quality parts,
-                and pratical prices.</p>
-        </div>
-        <!--textbox-->
-        <div class="photo col span_5-12">
-            <img src="img/outsideshop.jpg" class="radius">
-            <img src="img/certlogos.png">
-        </div>
-    </div>
-</div>
-<!--end about-->
 
 <!-- services -->
 <div id="services" class="section group">
@@ -131,7 +109,7 @@
 
             <div id="table1col1" class="col span_6-12">
                 <ul>
-                    <li><a href="#alignment">3D wheel Alignment</a></li>
+                    <li><a href="#alignment">Wheel Alignment Using 3D Technology</a></li>
                     <li>Chassis and suspension repair</li>
                     <li>Strut replacement</li>
                     <li>Serpentine belt replacement</li>
@@ -158,7 +136,7 @@
     <div class="bump">
         <div id="gmservices" class="col span_12-12">
             <h2>Additional Services for GM Vehicles
-                <span>(Chevorlet, Buick, GMC, Cadillac, Pontiac, & Oldsmobile)</span></h2>
+                <span class="mobile-no-show">(Chevrolet, Buick, GMC, Cadillac, Pontiac, & Oldsmobile)</span></h2>
 
             <div id="table2col1" class="col span_6-12">
                 <ul>
@@ -187,7 +165,7 @@
                     <li>Pre purchase inspections</li>
                     <li>ABS light diagnosis and repair</li>
                     <li>Cooling system service</li>
-                    <li>Waterpump replacement</li>
+                    <li>Water pump replacement</li>
                     <li>Thermostat replacement</li>
                 </ul>
             </div>
@@ -207,15 +185,19 @@
                 3D wheel alignment machine in the business today for quick and accurate wheel alignments. Not all
                 3D alignment machines are created equal, only the Hofmann Geoliner machine can do both vehicle
                 dimensioning and steering and torque sensor re-calibration for a complete alignment to extend tire
-                life and maximize fuel economy. For more information, please give us a call.</p>
-            <img src="img/dimension.jpg" class="dim radius"/></div>
+                life and maximize fuel economy. For more information, give us a call today!</p>
+            <img src="img/dimension.jpg" class="dim radius mobile-no-show"/></div>
         <!--textbox-->
-        <div class="photo col span_5-12 ie7floatfix">
+        <div class="photo col span_5-12 mobile-no-show ie7floatfix">
             <img src="img/alignment-vert.jpg" class="transverse radius">
+        </div>
+
+        <div class="mobile-only-show photo">
+            <img src="img/slide1.jpg" class="dim radius">
         </div>
     </div>
 
-    <h1></br>Why might I need a wheel alignment?</h1>
+    <h1>Why should I get a Wheel Alignment?</h1>
 
     <div class="bump">
         <div class="textbox col span_12-12 ie7widthfix">
@@ -243,8 +225,13 @@
             needed!?
 
             <h3>Wanting to maximize fuel mileage.</h3>
-            If all four tires are not pointed in the same direction, it's harder for the car to trace efficiently.
+            If all four tires are not pointed in the same direction, it's harder for the car to track efficiently.
             The easier the car rolls or tracks without scuff, the easier it is on the engine and maximizes fuel mileage.
+
+            <h3>To save money throughout the year</h3>
+            If your tires are toed out of alignment by just .017 in., it's the equivalent of dragging your tires
+            sideways for 102 miles for every 20,000 you drive. That’ll cost you $187.50 a year in wasted gas. It will
+            wear your tires faster, costing you $70 more a year. That's a total of $257.50 per year out of your wallet!
 
         </div>
         <!--textbox-->
@@ -262,18 +249,47 @@
 </div>
 <!--end alignment-->
 
+<!-- about -->
+<div id="about" class="section group">
+    <h1>About</h1>
+
+    <div class="bump">
+        <div class="textbox col span_7-12">
+            <p>Steve and Debbie opened Metcalfe Automotive in July of 1990 on the south side of Muncie.
+                Prior to that Steve worked at a locally well-known alignment shop right out of high school.
+                While studying automotive technology at Ivy Tech, he also spent several years as the lead
+                alignment technician at a local Chevrolet dealership. While at the dealership, Steve gained
+                experience and knowledge and became a GM certified technician, as well as an ASE
+                master and advanced level certified technician. Throughout the years Steve has established credibility
+                by giving vehicles attention to detail and by doing the job right the first time. Providing personal,
+                trustworthy service, quality parts and competitive pricing is why many customers have trusted their
+                automobile needs to Metcalfe Automotive.
+                Henry Ford once said "One mechanic can tighten a bolt as well as another. The greatest difference in
+                mechanics lies in the degree of thoroughness with which they do their work and the logic they use in
+                finding the underlying causes behind the failures they encounter".</p>
+        </div>
+        <!--textbox-->
+        <div class="photo col span_5-12">
+            <img src="img/outsideshop.jpg" class="radius mobile-no-show">
+            <img src="img/certlogos.png">
+        </div>
+    </div>
+</div>
+<!--end about-->
+
 <!-- contact -->
 <div id="contact" class="section group">
     <h1>Contact</h1>
 
-    <div class="radius Flexible-container col span_7-12 no-float">
-        <iframe width="425"
+    <div id="map-container" class="radius Flexible-container col span_7-12 no-float">
+        <iframe id="map"
+                width="425"
                 height="350"
                 frameborder="0"
                 scrolling="no"
                 marginheight="0"
                 marginwidth="0"
-                src="https://maps.google.com/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=2218+South+Monroe+Street,+Muncie,+IN&amp;aq=0&amp;oq=2218+S.+Monroe+Str&amp;sll=37.0625,-95.677068&amp;sspn=103.517908,65.478516&amp;ie=UTF8&amp;hq=&amp;hnear=2218+S+Monroe+St,+Muncie,+Indiana+47302&amp;t=m&amp;ll=40.174676,-85.380249&amp;spn=0.091814,0.145912&amp;z=12&amp;iwloc=A&amp;output=embed">
+                src="https://maps.google.com/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=2218+South+Monroe+Street,+Muncie,+IN&amp;aq=0&amp;oq=2218+S.+Monroe+Str&amp;sll=37.0625,-95.677068&amp;sspn=103.517908,65.478516&amp;ie=UTF8&amp;hq=&amp;hnear=2218+S+Monroe+St,+Muncie,+Indiana+47302&amp;t=m&amp;ll=40.174676,-85.380249&amp;spn=0.091814,0.145912&amp;z=12&amp;iwloc=near&amp;output=embed">
         </iframe>
     </div>
 

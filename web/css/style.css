@@ -372,7 +372,6 @@ a {
 
 .dim {
     max-width: 100%;
-
     margin: 0 auto;
     margin-top: 30px;
 }
@@ -538,6 +537,10 @@ br.test {
     *display: inline;
 }
 
+.mobile-only-show {
+    display: none;
+}
+
 /*  WIDTH AT LESS THAN 768 PIXELS */
 
 @media only screen and (max-width: 768px) {
@@ -678,7 +681,7 @@ br.test {
 
     #mainHeader {
         width: 100%;
-        margin-top: 0px;
+        margin-top: 0;
         padding: 0;
         background-image: none;
         background-color: #4c4d4f;
@@ -728,13 +731,19 @@ br.test {
         width: 100%;
     }
 
+    #mostmakes,
+    #gmservices {
+        padding: 0;
+    }
+
     .textbox {
         clear: both;
-        padding: 15px;
+        padding:  0 10px 10px 10px;
         margin: 0 auto;
     }
 
-    h1 { padding: 15px;}
+    h1 { padding: 7px 10px;}
+    h2 {margin-bottom: 0}
 
     #trio {
         display: none;
@@ -752,9 +761,13 @@ br.test {
 
     #table2col1 ul, #table1col1 ul {
         margin-bottom: 0;
+        padding-right: 5px;
+        padding-left: 25px;
     }
     #table2col2 ul, #table1col2 ul {
         margin-top: 0;
+        padding-left: 25px;
+        padding-right: 5px;
     }
     #header-nav a {
         padding: 0 1em;
@@ -763,5 +776,54 @@ br.test {
     }
     #home {
         margin-top: 2.75em;
+    }
+
+    .section {
+        margin: 10px;
+    }
+
+    .mobile-no-show,
+    .photo img.mobile-no-show{
+        display: none;
+    }
+
+    #logo {
+        display: none;
+    }
+
+    .fbicon {
+        display: none;
+    }
+
+    #mainHeader nav {
+        top: 0;
+        margin-top: 10px;
+    }
+
+    header,
+    .header {
+        height: auto;
+    }
+
+    .window { margin-top: 0;}
+
+    #home { margin-top: 10px;}
+
+    .rslides_container {display: none;}
+
+    .mobile-only-show {
+        display: block;
+    }
+    #mini-logo {
+        width: 100%;
+
+    }
+
+
+
+    #map-container {
+        margin-left: 5%;
+        width: 90%;
+        height: 300px;
     }
 }
