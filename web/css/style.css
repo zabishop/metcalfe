@@ -512,6 +512,16 @@ br.test {
     margin: 15px;
 }
 
+.cert-logos {
+    width: 100%;
+    text-align: center;
+}
+
+.cert-logos img {
+    display: inline-block;
+    margin: 1em;
+}
+
 /*  GROUPING  ============================================================================= */
 
 .group:before,
@@ -541,7 +551,18 @@ br.test {
     display: none;
 }
 
+.mobile-address-phone {
+    background: white;
+}
+
+.mobile-address-phone h1 {
+    background: white;
+    color: #98012e;
+}
+
 /*  WIDTH AT LESS THAN 768 PIXELS */
+
+
 
 @media only screen and (max-width: 768px) {
 
@@ -590,6 +611,7 @@ br.test {
     p#address {
         display: none;
     }
+
 }
 
 /*  GO FULL WIDTH AT LESS THAN 480 PIXELS */
@@ -762,11 +784,11 @@ br.test {
     #table2col1 ul, #table1col1 ul {
         margin-bottom: 0;
         padding-right: 5px;
-        padding-left: 25px;
+        padding-left: 30px;
     }
     #table2col2 ul, #table1col2 ul {
         margin-top: 0;
-        padding-left: 25px;
+        padding-left: 30px;
         padding-right: 5px;
     }
     #header-nav a {
@@ -819,13 +841,19 @@ br.test {
 
     }
 
-
-
     #map-container {
         margin-left: 5%;
         width: 90%;
         height: 300px;
     }
+}
+
+@media only screen and (max-width: 768px) and (orientation:landscape) { 
+    header,
+    .header {
+        position: absolute;
+    }
+
 }
 
 

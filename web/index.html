@@ -9,6 +9,7 @@
 
     <link rel="stylesheet" href="css/style.css" type="text/css"/>
     <meta name="viewport" content="width=device-width, initial scale=1.0">
+    <meta name="format-detection" content="telephone=no" />
 
     <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
     <script src="js/responsiveslides.js"></script>
@@ -69,9 +70,10 @@
             <p id="address">2218 S. Monroe St. Muncie, IN 47302</p>
             <nav id="header-nav">
                 <ul>
-                    <li><a href="#about">About</a></li>
+
                     <li><a href="#services">Services</a></li>
                     <li><a href="#alignment">Alignment</a></li>
+                    <li><a href="#about">About</a></li>
                     <li><a href="#contact">Contact</a></li>
                 </ul>
             </nav>
@@ -93,6 +95,9 @@
     </div>
     <div class="mobile-only-show">
         <img id="mini-logo" src="img/logo.png">
+        <div class="mobile-address-phone">
+            <h1>Call today! 765.288.1103</h1>
+        </div>
     </div>
 </div>
 <!--end home-->
@@ -271,7 +276,12 @@
         <!--textbox-->
         <div class="photo col span_5-12">
             <img src="img/outsideshop.jpg" class="radius mobile-no-show">
-            <img src="img/certlogos.png">
+            <div class="cert-logos">
+              <img src="img/ase-cert.png">
+             <img src="img/gm-cert.png">
+            <img src="img/napa-center.png">
+        
+        </div>
         </div>
     </div>
 </div>
@@ -316,12 +326,12 @@
 
 <footer class="">
     <nav>
-        <a href="#about">About</a>|
+        
         <a href="#services">Services</a>|
         <a href="#alignment">Alignment</a>|
+        <a href="#about">About</a>|
         <a href="#contact">Contact</a>
         <br>
-
         <p>
             <small>Site Created By</small>
             <a href="irongatecreative.com">IronGate Creative</a></p>
