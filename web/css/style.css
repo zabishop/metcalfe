@@ -479,6 +479,10 @@ br.test {
     *display: inline;
 }
 
+.col.vert-align-fix.fixed-column-width {
+    width: 235px;
+}
+
 /*  GRID OF TWELVE   ============================================================================= */
 
 .span_12-12 { width: 100%; }
